@@ -1,0 +1,27 @@
+{
+  "name": "cucumber-appium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "npx cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "11.1.0",
+    "@types/node": "^22.9.2",
+    "@wdio/appium-service": "^9.3.1",
+    "@wdio/types": "^9.2.2",
+    "appium-uiautomator2-driver": "^3.9.0",
+    "appium-xcuitest-driver": "^7.32.0",
+    "puppeteer-core": "^22.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "appium": "^2.12.1",
+    "webdriverio": "^9.3.1"
+  }
+}
